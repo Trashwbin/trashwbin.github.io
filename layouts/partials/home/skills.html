@@ -1,5 +1,23 @@
 <div class="skills-container">
+  <div class="skills-title">
+    <span>{{ i18n "skills_title" }}</span>
+  </div>
+
   <div class="skills-row">
+    <div class="skill-card">
+      <div class="skill-content">
+        <div class="skill-header">
+          <img src="https://cdn.simpleicons.org/go" alt="Go" class="skill-icon" />
+          <div class="skill-title">{{ i18n "skill_go_title" }}</div>
+        </div>
+        <div class="skill-level" data-level="{{ i18n "skill_level_proficient" }}" data-percent="75%"
+          style="--skill-percent: 75%"></div>
+        <div class="skill-description">
+          {{ i18n "skill_go_desc" }}
+        </div>
+      </div>
+    </div>
+
     <div class="skill-card">
       <div class="skill-content">
         <div class="skill-header">
@@ -52,8 +70,8 @@
           </svg>
           <div class="skill-title">{{ i18n "skill_java_title" }}</div>
         </div>
-        <div class="skill-level" data-level="{{ i18n " skill_level_expert" }}" data-percent="90%"
-          style="--skill-percent: 90%"></div>
+        <div class="skill-level" data-level="{{ i18n "skill_level_proficient" }}" data-percent="75%"
+          style="--skill-percent: 75%"></div>
         <div class="skill-description">
           {{ i18n "skill_java_desc" }}
         </div>
@@ -63,13 +81,29 @@
     <div class="skill-card">
       <div class="skill-content">
         <div class="skill-header">
-          <img src="https://cdn.simpleicons.org/go" alt="Go" class="skill-icon" />
-          <div class="skill-title">{{ i18n "skill_go_title" }}</div>
+          <img src="https://cdn.simpleicons.org/typescript" alt="TypeScript" class="skill-icon" />
+          <div class="skill-title">{{ i18n "skill_ts_title" }}</div>
         </div>
-        <div class="skill-level" data-level="{{ i18n " skill_level_good" }}" data-percent="70%"
-          style="--skill-percent: 70%"></div>
+        <div class="skill-level" data-level="{{ i18n "skill_level_basic" }}" data-percent="60%"
+          style="--skill-percent: 60%"></div>
         <div class="skill-description">
-          {{ i18n "skill_go_desc" }}
+          {{ i18n "skill_ts_desc" }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="skills-row">
+    <div class="skill-card">
+      <div class="skill-content">
+        <div class="skill-header">
+          <img src="https://cdn.simpleicons.org/nextdotjs" alt="Next.js" class="skill-icon" />
+          <div class="skill-title">{{ i18n "skill_next_title" }}</div>
+        </div>
+        <div class="skill-level" data-level="{{ i18n "skill_level_basic" }}" data-percent="60%"
+          style="--skill-percent: 60%"></div>
+        <div class="skill-description">
+          {{ i18n "skill_next_desc" }}
         </div>
       </div>
     </div>
@@ -80,60 +114,10 @@
           <img src="https://cdn.simpleicons.org/vuedotjs" alt="Vue" class="skill-icon" />
           <div class="skill-title">{{ i18n "skill_vue_title" }}</div>
         </div>
-        <div class="skill-level" data-level="{{ i18n " skill_level_good" }}" data-percent="70%"
-          style="--skill-percent: 70%"></div>
+        <div class="skill-level" data-level="{{ i18n "skill_level_basic" }}" data-percent="55%"
+          style="--skill-percent: 55%"></div>
         <div class="skill-description">
           {{ i18n "skill_vue_desc" }}
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="skills-row">
-    <div class="skill-card">
-      <div class="skill-content">
-        <div class="skill-header">
-          <img src="https://cdn.simpleicons.org/cplusplus" alt="C++" class="skill-icon" />
-          <div class="skill-title">{{ i18n "skill_cpp_title" }}</div>
-        </div>
-        <div class="skill-level" data-level="{{ i18n " skill_level_good" }}" data-percent="50%"
-          style="--skill-percent: 50%"></div>
-        <div class="skill-description">
-          {{ i18n "skill_cpp_desc" }}
-        </div>
-      </div>
-    </div>
-
-    <div class="skills-title">
-      <span>{{ i18n "skills_title" }}</span>
-    </div>
-
-    <div class="skill-card">
-      <div class="skill-content">
-        <div class="skill-header">
-          <img src="https://cdn.simpleicons.org/mysql" alt="Database" class="skill-icon" />
-          <div class="skill-title">{{ i18n "skill_db_title" }}</div>
-        </div>
-        <div class="skill-level" data-level="{{ i18n " skill_level_proficient" }}" data-percent="75%"
-          style="--skill-percent: 75%"></div>
-        <div class="skill-description">
-          {{ i18n "skill_db_desc" }}
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="skills-row">
-    <div class="skill-card">
-      <div class="skill-content">
-        <div class="skill-header">
-          <img src="https://cdn.simpleicons.org/javascript" alt="JavaScript" class="skill-icon" />
-          <div class="skill-title">{{ i18n "skill_js_title" }}</div>
-        </div>
-        <div class="skill-level" data-level="{{ i18n " skill_level_good" }}" data-percent="70%"
-          style="--skill-percent: 70%"></div>
-        <div class="skill-description">
-          {{ i18n "skill_js_desc" }}
         </div>
       </div>
     </div>
@@ -144,10 +128,26 @@
           <img src="https://cdn.simpleicons.org/python" alt="Python" class="skill-icon" />
           <div class="skill-title">{{ i18n "skill_python_title" }}</div>
         </div>
-        <div class="skill-level" data-level="{{ i18n " skill_level_basic" }}" data-percent="50%"
-          style="--skill-percent: 50%"></div>
+        <div class="skill-level" data-level="{{ i18n "skill_level_good" }}" data-percent="65%"
+          style="--skill-percent: 65%"></div>
         <div class="skill-description">
           {{ i18n "skill_python_desc" }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="skills-row">
+    <div class="skill-card">
+      <div class="skill-content">
+        <div class="skill-header">
+          <img src="https://cdn.simpleicons.org/mysql" alt="Database" class="skill-icon" />
+          <div class="skill-title">{{ i18n "skill_db_title" }}</div>
+        </div>
+        <div class="skill-level" data-level="{{ i18n "skill_level_proficient" }}" data-percent="70%"
+          style="--skill-percent: 70%"></div>
+        <div class="skill-description">
+          {{ i18n "skill_db_desc" }}
         </div>
       </div>
     </div>
@@ -155,13 +155,27 @@
     <div class="skill-card">
       <div class="skill-content">
         <div class="skill-header">
-          <img src="https://cdn.simpleicons.org/leetcode" alt="数据结构" class="skill-icon" />
+          <img src="https://cdn.simpleicons.org/leetcode" alt="Algorithms" class="skill-icon" />
           <div class="skill-title">{{ i18n "skill_algo_title" }}</div>
         </div>
-        <div class="skill-level" data-level="{{ i18n " skill_level_good" }}" data-percent="60%"
-          style="--skill-percent: 60%"></div>
+        <div class="skill-level" data-level="{{ i18n "skill_level_good" }}" data-percent="75%"
+          style="--skill-percent: 75%"></div>
         <div class="skill-description">
           {{ i18n "skill_algo_desc" }}
+        </div>
+      </div>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-content">
+        <div class="skill-header">
+          <img src="https://cdn.simpleicons.org/anthropic" alt="AI Development" class="skill-icon" />
+          <div class="skill-title">{{ i18n "skill_ai_title" }}</div>
+        </div>
+        <div class="skill-level" data-level="{{ i18n "skill_level_proficient" }}" data-percent="80%"
+          style="--skill-percent: 80%"></div>
+        <div class="skill-description">
+          {{ i18n "skill_ai_desc" }}
         </div>
       </div>
     </div>
@@ -172,28 +186,39 @@
   .skills-container {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 2rem;
+  }
+
+  .skills-title {
+    text-align: center;
+    background-color: #2c3e50;
+    color: #f39c12;
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    margin-bottom: 1rem;
+    animation: pulse 2s infinite;
   }
 
   .skills-row {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-    margin-bottom: 1rem;
     opacity: 0;
     transform: translateY(20px);
     animation: fadeInUp 0.8s ease-out forwards;
   }
 
-  .skills-row:nth-child(1) {
+  .skills-row:nth-child(2) {
     animation-delay: 0.2s;
   }
 
-  .skills-row:nth-child(2) {
+  .skills-row:nth-child(3) {
     animation-delay: 0.4s;
   }
 
-  .skills-row:nth-child(3) {
+  .skills-row:nth-child(4) {
     animation-delay: 0.6s;
   }
 
@@ -338,32 +363,6 @@
     visibility: visible;
     opacity: 0.95;
     transform: scale(1);
-  }
-
-  .skills-title {
-    text-align: center;
-    background-color: #2c3e50;
-    color: #f39c12;
-    font-size: 3rem;
-    font-weight: bold;
-    padding: 2rem;
-    border-radius: 1.5rem;
-    margin: 1rem 0;
-    position: relative;
-    flex: 1;
-    animation: pulse 2s infinite;
-  }
-
-  @keyframes fadeInDown {
-    from {
-      opacity: 0;
-      transform: translateY(-20px);
-    }
-
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
   }
 
   @keyframes fadeInUp {
