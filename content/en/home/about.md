@@ -6,9 +6,9 @@ weight: 2
 
 <span class="name-switch"><span class="name">**Trashwbin**</span><span class="name">**Abin**</span></span>
 <br>
-A passionate *developer* from China!
+A passionate *developer*!
 <br>
-I'm passionate about **backend development**, while also interested in *frontend*, *algorithms*, and *artificial intelligence*.
+I'm enthusiastic about **backend development**, **AI-driven programming**, and **algorithms**. *Frontend*? When needed.
 <br>
 Love `open source` and hope to contribute to the open source community.
 <br>

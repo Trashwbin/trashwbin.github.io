@@ -6,9 +6,9 @@ weight: 2
 
 <span class="name-switch"><span class="name">**Trashwbin**</span><span class="name">**Abin**</span></span>
 <br>
-一名热爱技术的*开发者*，来自中国！
+一名热爱技术的*开发者*！
 <br>
-我热衷于 **后端开发**，同时对 *前端*、*算法* 和 *人工智能* 充满兴趣。
+我热衷于 **后端开发**、**AI驱动编程** 和 **算法**。*前端*？偶尔也写。
 <br>
 热爱 `开源`，希望能为开源社区做出贡献。
 <br>

@@ -20,8 +20,9 @@ contact_title: "Contact Me"
 # About page
 about_avatar_alt: "Abin's Avatar"
 about_intro: "A passionate developer"
-about_backend: "backend development"
-about_interests: "frontend, algorithms, and artificial intelligence"
+about_backend: "backend development, AI-driven programming, and algorithms"
+about_interests: "frontend technologies"
+about_frontend_note: "when needed"
 about_opensource: "open source"
 about_contact: "contact me"
 
@@ -29,31 +30,34 @@ about_contact: "contact me"
 skill_level_expert: "Expert"
 skill_level_proficient: "Proficient"
 skill_level_good: "Good"
-skill_level_basic: "Basic"
-
-skill_java_title: "Java"
-skill_java_desc: "Deep expertise in Java core technologies and JVM tuning, with extensive enterprise project experience. Proficient in Spring ecosystem for microservices architecture, with strong focus on high-concurrency and distributed systems."
+skill_level_basic: "Familiar"
 
 skill_go_title: "Go"
-skill_go_desc: "Proficient in Go language features and concurrent programming model. Experience in developing IM systems and e-commerce platforms. Capable of high-performance server-side development."
+skill_go_desc: "Familiar with Go development and concurrent programming. Hands-on experience with microservices architecture and distributed systems. Capable of building server-side applications using Gin, Kitex, and other frameworks."
+
+skill_java_title: "Java"
+skill_java_desc: "Familiar with Java development and Spring ecosystem. Experience with enterprise projects and DDD architecture design. Proficient in SpringBoot, MyBatis, and other mainstream frameworks."
+
+skill_ts_title: "TypeScript"
+skill_ts_desc: "Familiar with TypeScript development and type systems for writing maintainable code. Mainly used with frameworks for application development."
+
+skill_next_title: "Next.js"
+skill_next_desc: "Familiar with Next.js framework and React ecosystem. Capable of building modern web applications with server-side rendering and API routes."
 
 skill_vue_title: "Vue.js"
-skill_vue_desc: "Deep understanding of Vue.js framework principles, experienced in component-based development and state management. Capable of building modern SPAs with Vue ecosystem."
-
-skill_cpp_title: "C++"
-skill_cpp_desc: "Solid understanding of C++ core syntax and memory management. Project development experience, mainly used for algorithmic competitions."
-
-skill_db_title: "Databases"
-skill_db_desc: "Expert in MySQL database principles and performance optimization. Experience in designing key-value storage engines. Familiar with distributed database architecture and transaction processing."
-
-skill_js_title: "JavaScript"
-skill_js_desc: "Proficient in modern JavaScript development, including ES6+ features and asynchronous programming. Capable of developing rich interactive web applications using mainstream frameworks."
+skill_vue_desc: "Familiar with Vue.js framework and component-based development. Capable of building basic frontend applications with Vue."
 
 skill_python_title: "Python"
-skill_python_desc: "Proficient in Python basics and common libraries. Capable of developing automation scripts and data analysis tools. Understanding of Python applications in AI."
+skill_python_desc: "Solid Python fundamentals, mainly used for scripting and automation tools. Familiar with common libraries."
 
-skill_algo_title: "Algorithms"
-skill_algo_desc: "Strong foundation in data structures and algorithms. Proficient in various classic algorithms. Capable of solving complex engineering problems with elegant and efficient code."
+skill_db_title: "Databases & Middleware"
+skill_db_desc: "Familiar with MySQL, Redis, PostgreSQL, and other mainstream databases and middleware. Practical experience in database design and performance optimization."
+
+skill_algo_title: "Data Structures & Algorithms"
+skill_algo_desc: "Strong algorithmic foundation with multiple awards in competitions like the Blue Bridge Cup. Capable of applying algorithmic thinking to solve engineering problems."
+
+skill_ai_title: "AI-Assisted Development"
+skill_ai_desc: "Proficient in using AI tools like Claude and Cursor for development. Skilled in AI-driven programming approaches to boost productivity and code quality."
 
 # Contact page
 contact_header: "Let's Connect! 👋"
@@ -68,4 +72,4 @@ contact_reason1: "Have questions about my projects"
 contact_reason2: "Want to collaborate on something cool"
 contact_reason3: "Just want to say hi"
 contact_footer1: "✨ Love open source and looking forward to starting my own projects"
-contact_footer2: "🤝 Passionate about collaboration, let's create something interesting together!" 
+contact_footer2: "🤝 Passionate about collaboration, let's create something interesting together!"

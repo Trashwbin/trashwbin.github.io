@@ -55,10 +55,10 @@ defaultContentLanguageInSubdir = true  # 为所有语言创建子目录
         contentDir = "content/zh"
         weight = 1
         title = "Trashwbin"
-        
+
         [languages.zh.params]
-            description = "一名热爱技术的开发者"
-            tagLine = "一名热爱技术的开发者"
+            description = "后端开发 | AI驱动编程 | 算法"
+            tagLine = "后端开发 | AI驱动编程 | 算法"
             footerText = "用 ❤️ 制作"
 
     [languages.en]
@@ -66,8 +66,8 @@ defaultContentLanguageInSubdir = true  # 为所有语言创建子目录
         contentDir = "content/en"
         weight = 2
         title = "Trashwbin"
-        
+
         [languages.en.params]
-            description = "A passionate developer"
-            tagLine = "A passionate developer"
+            description = "Backend Dev | AI-Driven Programming | Algorithms"
+            tagLine = "Backend Dev | AI-Driven Programming | Algorithms"
             footerText = "Made with ❤️"

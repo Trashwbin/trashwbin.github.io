@@ -20,8 +20,9 @@ contact_title: "联系方式"
 # 关于页面
 about_avatar_alt: "Abin的头像"
 about_intro: "一名热爱技术的开发者"
-about_backend: "后端开发"
-about_interests: "前端、算法和人工智能"
+about_backend: "后端开发、AI驱动编程和算法"
+about_interests: "前端技术"
+about_frontend_note: "偶尔也写"
 about_opensource: "开源"
 about_contact: "交流"
 
@@ -29,31 +30,34 @@ about_contact: "交流"
 skill_level_expert: "精通"
 skill_level_proficient: "熟练"
 skill_level_good: "良好"
-skill_level_basic: "入门"
-
-skill_java_title: "Java"
-skill_java_desc: "深入掌握Java核心技术和JVM调优，拥有丰富的企业级项目开发经验。熟练运用Spring全家桶进行微服务架构设计，对高并发、分布式系统有深入研究。"
+skill_level_basic: "了解"
 
 skill_go_title: "Go"
-skill_go_desc: "熟练掌握Go语言特性和并发编程模型，有IM即时通讯系统和电商平台的开发经验。能够运用Go进行高性能服务端开发。"
+skill_go_desc: "熟悉Go语言开发和并发编程，有微服务架构和分布式系统的实际项目经验。能够使用Gin、Kitex等框架进行服务端开发。"
+
+skill_java_title: "Java"
+skill_java_desc: "熟悉Java开发和Spring生态，有企业级项目和DDD架构设计经验。掌握SpringBoot、MyBatis等主流框架的使用。"
+
+skill_ts_title: "TypeScript"
+skill_ts_desc: "了解TypeScript开发，能够使用类型系统编写可维护的代码。主要配合框架进行应用开发。"
+
+skill_next_title: "Next.js"
+skill_next_desc: "了解Next.js框架和React生态，能够搭建现代化的Web应用。具备服务端渲染和API路由的开发能力。"
 
 skill_vue_title: "Vue.js"
-skill_vue_desc: "深入理解Vue.js框架原理，具备组件化开发和状态管理经验。能够使用Vue全家桶构建现代化的单页面应用。"
-
-skill_cpp_title: "C++"
-skill_cpp_desc: "掌握C++核心语法，理解内存管理机制。有实际项目开发经验，主要用于算法比赛。"
-
-skill_db_title: "数据库"
-skill_db_desc: "精通MySQL数据库原理和性能优化，具备自主设计key-value存储引擎的经验。熟悉分布式数据库架构和事务处理。"
-
-skill_js_title: "JavaScript"
-skill_js_desc: "熟练掌握现代JavaScript开发，包括ES6+新特性和异步编程。能够使用主流框架开发交互丰富的Web应用。"
+skill_vue_desc: "了解Vue.js框架和组件化开发。能够使用Vue进行基础的前端应用开发。"
 
 skill_python_title: "Python"
-skill_python_desc: "掌握Python基础语法和常用库，能够开发自动化脚本和数据分析工具。了解Python在人工智能领域的应用。"
+skill_python_desc: "掌握Python基础，主要用于脚本开发和自动化工具。了解常用库的使用。"
 
-skill_algo_title: "数据结构/算法"
-skill_algo_desc: "扎实的数据结构和算法功底，熟练掌握各类经典算法。具备解决复杂工程问题的能力，追求代码的优雅和效率。"
+skill_db_title: "数据库与中间件"
+skill_db_desc: "熟悉MySQL、Redis、PostgreSQL等主流数据库和中间件。有实际的数据库设计和性能优化经验。"
+
+skill_algo_title: "数据结构与算法"
+skill_algo_desc: "扎实的算法基础，多次获得蓝桥杯等算法竞赛奖项。具备运用算法思维解决工程问题的能力。"
+
+skill_ai_title: "AI辅助开发"
+skill_ai_desc: "熟练使用Claude、Cursor等AI工具进行开发。擅长AI驱动的编程方式，提升开发效率和代码质量。"
 
 # 联系页面
 contact_header: "让我们聊聊！👋"
@@ -68,4 +72,4 @@ contact_reason1: "对我的项目有疑问"
 contact_reason2: "想一起合作做些有趣的事"
 contact_reason3: "只是想打个招呼"
 contact_footer1: "✨ 热爱开源，期待有朝一日能启动自己的项目"
-contact_footer2: "🤝 对合作充满热情，让我们一起创造有趣的项目！" 
+contact_footer2: "🤝 对合作充满热情，让我们一起创造有趣的项目！"
