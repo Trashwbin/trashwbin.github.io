@@ -19,6 +19,7 @@ defaultContentLanguageInSubdir = true  # 为所有语言创建子目录
 [params]
     themeStyle = "light"
     favicon = "../icons/favicon.ico"
+    blogURL = "https://blog.trashwbin.top"
     showRSSButton = false
     fadeIn = true
     fadeInIndex = false
