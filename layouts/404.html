@@ -1,0 +1,17 @@
+{{ define "title" }}
+  <h1 class="bold-title is-1" style="font-size: 6rem; opacity: 0.15; margin-bottom: 0;">404</h1>
+{{ end }}
+
+{{ define "main" }}
+<div class="container has-text-centered" style="padding: 2rem 1rem;">
+  <p style="font-size: 1.25rem; margin-bottom: 0.5rem;">Page not found</p>
+  <p style="color: #94a3b8; margin-bottom: 2rem;">The page you're looking for doesn't exist or has been moved.</p>
+  <a href="{{ .Site.LanguagePrefix }}/" style="display: inline-block; padding: 0.6rem 1.5rem; border: 2px solid #e0e0e0; border-radius: 10px; color: #2c3e50; text-decoration: none; transition: all 0.3s ease;">
+    Back to Home
+  </a>
+</div>
+{{ end }}
+
+{{ define "footer" }}
+  {{ partial "footer/text.html" . }}
+{{ end }}
